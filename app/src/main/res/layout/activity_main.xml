@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Drink 1 -->
+        <EditText
+            android:id="@+id/editTextVolume1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 1: Volume (mL)"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPercent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 1: % Alcohol"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextCount1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 1: Number of Drinks"
+            android:inputType="number"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Drink 2 -->
+        <EditText
+            android:id="@+id/editTextVolume2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 2: Volume (mL)"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPercent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 2: % Alcohol"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextCount2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 2: Number of Drinks"
+            android:inputType="number"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Drink 3 -->
+        <EditText
+            android:id="@+id/editTextVolume3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 3: Volume (mL)"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPercent3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 3: % Alcohol"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextCount3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 3: Number of Drinks"
+            android:inputType="number"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Drink 4 -->
+        <EditText
+            android:id="@+id/editTextVolume4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 4: Volume (mL)"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPercent4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 4: % Alcohol"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextCount4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 4: Number of Drinks"
+            android:inputType="number"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Drink 5 -->
+        <EditText
+            android:id="@+id/editTextVolume5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 5: Volume (mL)"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPercent5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 5: % Alcohol"
+            android:inputType="numberDecimal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextCount5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drink 5: Number of Drinks"
+            android:inputType="number"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Result -->
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Standard Drinks (Canada): 0.00"
+            android:textSize="18sp"
+            android:layout_marginTop="32dp"
+            android:gravity="center" />
+    </LinearLayout>
+</ScrollView>
